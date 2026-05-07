@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <user-permission android:name="android.permission.CAMERA" />
-    <user-feature android:name="android.hardware.camera.flash" />
+     <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature android:name="android.hardware.camera.flash" />
+
     <application
         android:label="app_sensor_movimiento"
         android:name="${applicationName}"
